@@ -23,6 +23,5 @@
     "IceCat"
   ],
   "type": "template", 
-  "namespace": "IceCat",
-  "serviceProvider": "IceCat\\Providers\\IceCatServiceProvider"
+  "namespace": "IceCat"
 }
