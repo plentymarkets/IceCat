@@ -1,28 +1,27 @@
 <?php
 
-namespace PlentyShop\Providers;
+namespace IceCat\Providers;
 
-use Plenty\Modules\ShopBuilder\Contracts\ContentWidgetRepositoryContract;
-use Plenty\Modules\Webshop\Template\Providers\TemplateServiceProvider;
-use Plenty\Plugin\Templates\Twig;
-use Plenty\Plugin\Events\Dispatcher;
+use Plenty\Plugin\ServiceProvider;
 
 /**
- * Class PlentyShopServiceProvider
- * @package PlentyShop\Providers
+ * Class IceCatServiceProvider
+ * @package IceCat\Providers
  */
-class PlentyShopServiceProvider extends TemplateServiceProvider
+class IceCatServiceProvider extends ServiceProvider
 {
-    /**
-     * Bootstrap any application services.
-     * @param Twig $twig
-     * @param Dispatcher $dispatcher
-     */
-    public function boot(Twig $twig, Dispatcher $dispatcher)
+
+    public function boot()
     {
-        // Register our own widgets
-        /** @var ContentWidgetRepositoryContract $widgetRepository */
-        $widgetRepository = pluginApp(ContentWidgetRepositoryContract::class);
-        // $widgetRepository->registerWidget(Test::class);
+
+    }
+
+    /**
+     * Register the service provider.
+     */
+    public function register()
+    {
+
+
     }
 }
