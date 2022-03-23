@@ -1,14 +1,14 @@
 {
   "version": "0.0.1",
-  "name": "PlentyShop",
+  "name": "IceCat",
   "marketplaceName": {
-    "de": "PlentyShop Boilerplate",
-    "en": "PlentyShop Boilerplate"
+    "de": "IceCat",
+    "en": "IceCat"
   },
-  "description": "This is a template plugin for new plugins extending plentyShop frontends.",
+  "description": "This is a template plugin for IceCat",
   "shortDescription": {
-    "de": "Dies ist ein Template Plugin für neue Plugins, die das PlentyShop Frontend erweitern wollen.",
-    "en": "This is a template plugin for new plugins extending plentyShop frontends."
+    "de": "Dies ist ein Template Plugin für IceCat.",
+    "en": "This is a template plugin for n IceCat."
   },
   "author": "plentysystems AG",
   "license": "AGPL-3.0",
@@ -17,32 +17,12 @@
   "authorIcon": "icon_author_xs.png",
   "email": "example@example.com",
   "phone": "+49 123 456 789",
-  "categories": [
-    "3885"
-  ],
   "keywords": [
     "plentymarkets",
     "plugins",
-    "layout"
+    "IceCat"
   ],
   "type": "template",
-  "require": {
-    "IO": "~5.0.0"
-  },
   "namespace": "PlentyShop",
-  "serviceProvider": "PlentyShop\\Providers\\PlentyShopServiceProvider",
-  "dataProviders": [
-    {
-      "key": "PlentyShop\\DataProviders\\ImportJS",
-      "name": "Import javascript bundle",
-      "description": "Import the javascript bundle into the DOM",
-      "defaultLayoutContainer": "Ceres::Script.AfterScriptsLoaded"
-    },
-    {
-      "key": "PlentyShop\\DataProviders\\ImportCSS",
-      "name": "Import css bundle",
-      "description": "Import the css bundle into the DOM",
-      "defaultLayoutContainer": "Ceres::Template.Style"
-    }
-  ]
+  "serviceProvider": "PlentyShop\\Providers\\IceCatServiceProvider",
 }
