@@ -22,6 +22,7 @@
     "plugins",
     "IceCat"
   ],
+  "categories": ["4124"],
   "type": "template", 
   "namespace": "IceCat"
 }
